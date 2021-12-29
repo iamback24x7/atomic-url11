@@ -1,14 +1,12 @@
 <h1 align="center"><strong>Atomic URL</strong></h1>
 
-Designing a URL shortener such as [TinyURL](https://tinyurl.com/) and [Bitly](https://bitly.com/) is one of the most common System Design interview questions in software engineering.
+This is a proof of concept (POC) of how one builds an actual URL shortener service using serverless computing. 
 
-While meddling around with Cloudflare Worker, it gave me an idea to build an actual URL shortener that can be used by anyone.
-
-This is a proof of concept (POC) of how one builds an actual URL shortener service using serverless computing.
+A full write-up for installing this build can be found [here](https://www.levine.org/cloud-computing/cloudflare/workers/how-to-build-a-url-shortener-with-wrangler/).
 
 ## Requirements
 
--   Get a [Cloudflare](https://www.cloudflare.com/) account.
+-   A [Cloudflare](https://www.cloudflare.com/) account.
 -   Install [Wrangler](https://github.com/cloudflare/wrangler#installation) CLI for Cloudflare Workers deployment.
 
 ## Setup
@@ -38,7 +36,7 @@ To try out the project locally, simply run `wrangler dev`.
 
 ## Deployment
 
-To publish any new changes to your Cloudflare Worker, run `wrangler publish`
+To publish any new changes to your Cloudflare Worker, run `wrangler publish`.
 
 Before publishing your code you need to edit `wrangler.toml` file and add your Cloudflare `account_id` - more information about configuring and publishing your code can be found [in the documentation](https://developers.cloudflare.com/workers/learning/getting-started#7-configure-your-project-for-deployment).
 
