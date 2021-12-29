@@ -60,11 +60,13 @@ export const LANDING_PAGE_HTML = `
                     <div class="columns">
                         <div class="column left">
                             <h1 class="title is-1">Atomic URL</h1>
-                            <h2 class="subtitle colored is-4">A URL shortener POC built using Cloudflare Worker.</h2>
+                            <h2 class="subtitle colored is-4">A URL shortener POC built using Cloudflare Workers.</h2>
+			<!--
                             <p>Designing a URL shortener such as <a href="https://tinyurl.com/">TinyURL</a> and <a href="https://bitly.com/">Bitly</a> is one of the most common System Design interview questions in software engineering.</p>
                             </br>
                             <p>While meddling around with <a href="https://workers.cloudflare.com/">Cloudflare Worker</a>, it gave me an idea to build an actual URL shortener that can be used by anyone.</p>
                             </br>
+			-->
                             <p>This is a proof of concept (POC) of how one builds an actual URL shortener service using serverless computing (<a href="https://github.com/ngshiheng/atomic-url">source code</a>).</p>
                         </div>
                         <div class="column right has-text-centered icon-text">
@@ -78,7 +80,7 @@ export const LANDING_PAGE_HTML = `
                             </br>
                             <div class="field">
                                 <div class="control">
-                                    <input class="input is-link is-primary is-medium is-rounded" type="url" placeholder="https://jerrynsh.com/" id="url" required>
+                                    <input class="input is-link is-primary is-medium is-rounded" type="url" placeholder="https://example.com/" id="url" required>
                                 </div>
                             </div>
                             <button id="submit" class="button is-block is-primary is-rounded is-fullwidth is-medium" onclick="submitURL()">Shorten</button>
@@ -97,7 +99,7 @@ export const LANDING_PAGE_HTML = `
                     <nav class="level">
                         <div class="level-right">
                             <small class="level-item" style="color: var(--textLight)">
-                            &copy; Atomic URL by&nbsp<a href="https://jerrynsh.com/">Jerry Ng</a>. All Rights Reserved.
+                            &copy; Atomic URL originally created by &nbsp<a href="https://s.jerrynsh.com/">Jerry Ng</a>. All Rights Reserved.
                             </small>
                         </div>
                     </nav>
