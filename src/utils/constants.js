@@ -119,8 +119,8 @@ export const LANDING_PAGE_HTML = `
         :root {
         --brandColor: hsl(166, 67%, 51%);
         --background: rgb(40, 42, 54);
-        --textDark: hsla(0, 0%, 0%, 0.66);
-        --textLight: hsla(0, 0%, 0%, 0.33);
+        --textDark: hsl(231, 15%, 18%);
+        --textLight: hsl(232, 14%, 31%);
         }
         body {
         background: var(--background);
