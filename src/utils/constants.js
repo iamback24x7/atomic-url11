@@ -11,12 +11,13 @@ export const LANDING_PAGE_HTML = `
         <title>Atomic URL</title>
 
         <!--Favicon-->
-        <link rel="icon" type="image/x-icon" href="https://cdn.levine.org/uploads/images/gallery/2021-12/8wWj9LimebkMrZ2t-atom-energy.png">
+        <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/davelevine/url-shortener@main/atom-energy.png">
 
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+        
+        <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
 
-        <script src="assets/js/15181efa86.js"></script>
-        <link rel="stylesheet" href="assets/css/bulma.min.css" />
         <script>
             const submitURL = () => {
                 let statusElement = document.getElementById('status')
