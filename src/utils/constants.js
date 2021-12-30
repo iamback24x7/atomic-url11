@@ -136,7 +136,7 @@ export const LANDING_PAGE_HTML = `
         margin-bottom: 1rem;
         }
         .register {
-        margin-top: 6rem;
+        margin-top: 4rem;
         background: #f8f8f2;
         border-radius: 10px;
         }
