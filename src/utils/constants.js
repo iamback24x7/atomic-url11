@@ -58,7 +58,7 @@ export const LANDING_PAGE_HTML = `
             <div class="columns is-multiline">
                 <div class="column is-8 is-offset-2 register">
                     <div class="columns">
-                        <div class="column left">
+                        <div class="column left has-text-centered">
                             <h1 class="title is-1">Atomic URL</h1>
                             <h2 class="subtitle colored is-4">A URL shortener POC built using Cloudflare Workers.</h2>
 			            <!--
@@ -67,10 +67,10 @@ export const LANDING_PAGE_HTML = `
                             <p>While meddling around with <a href="https://workers.cloudflare.com/">Cloudflare Worker</a>, it gave me an idea to build an actual URL shortener that can be used by anyone.</p>
                             </br>
 			            -->
-                            <p>This is a proof of concept (POC) of how one builds an actual URL shortener service using serverless computing (<a href="https://github.com/ngshiheng/atomic-url">source code</a>).</p>
+                            <p>This is a proof of concept (POC) of how one builds an actual URL shortener service using serverless computing. The source code can be found <a href="https://github.com/ngshiheng/atomic-url">here</a>.</p>
                         </div>
                         <div class="column right has-text-centered icon-text">
-                            <h1 class="title is-4">Shorten A URL</h1>
+                            <h1 class="title is-2">Shorten a URL</h1>
                             <div class="icon-text">
                                 <span class="icon has-text-info">
                                 <i class="fas fa-info-circle"></i>
@@ -94,6 +94,7 @@ export const LANDING_PAGE_HTML = `
                         </div>
                     </div>
                 </div>
+                <!--
                 <div class="column is-8 is-offset-2">
                     <br>
                     <nav class="level">
@@ -104,6 +105,7 @@ export const LANDING_PAGE_HTML = `
                         </div>
                     </nav>
                 </div>
+                -->
             </div>
         </section>
     </body>
@@ -123,20 +125,20 @@ export const LANDING_PAGE_HTML = `
         margin-bottom: 1rem;
         }
         .register {
-        margin-top: 10rem;
+        margin-top: 6rem;
         background: white;
         border-radius: 10px;
         }
         .left,
         .right {
-        padding: 4.5rem;
+        padding: 2.5rem;
         }
         .left {
         border-right: 5px solid var(--background);
         }
         .left .title {
         font-weight: 800;
-        letter-spacing: -2px;
+        letter-spacing: -1px;
         }
         .left .colored {
         color: var(--brandColor);
@@ -149,6 +151,8 @@ export const LANDING_PAGE_HTML = `
         font-size: 1.15rem;
         }
         .right .title {
+        margin-top: 0.3rem;
+        margin-bottom: 1rem !important;
         font-weight: 800;
         letter-spacing: -1px;
         }
