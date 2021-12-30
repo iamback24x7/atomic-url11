@@ -125,6 +125,10 @@ export const LANDING_PAGE_HTML = `
         body {
         background: var(--background);
         height: 100vh;
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
         border: 1px solid transparent;
         color: var(--textDark);
         }
