@@ -15,7 +15,7 @@ export const LANDING_PAGE_HTML = `
 
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;700&display=swap" rel="stylesheet">
         
-        <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0-beta3/js/all.min.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
 
         <script>
@@ -73,7 +73,7 @@ export const LANDING_PAGE_HTML = `
                             <p>While meddling around with <a href="https://workers.cloudflare.com/">Cloudflare Worker</a>, it gave me an idea to build an actual URL shortener that can be used by anyone.</p>
                             </br>
 			            -->
-                            <p>This is a proof of concept (POC) of how one builds an actual URL shortener service using serverless computing. The source code can be found <a href="https://github.com/ngshiheng/atomic-url">here</a>.</p>
+                            <p>This is a proof of concept (POC) of how one builds an actual URL shortener service using serverless computing. The source code can be found <a href="https://github.com/davelevine/atomic-url">here</a>.</p>
                         </div>
                         <div class="column right has-text-centered icon-text">
                             <h1 class="title is-2">Shorten a URL</h1>
