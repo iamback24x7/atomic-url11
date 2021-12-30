@@ -9,10 +9,14 @@ export const LANDING_PAGE_HTML = `
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Atomic URL</title>
-        <link rel="icon" type="image/png" href="https://img.icons8.com/external-dreamstale-green-shadow-dreamstale/50/000000/external-atom-energy-and-ecology-dreamstale-green-shadow-dreamstale.png">
+
+        <!--Favicon-->
+        <link rel="icon" type="image/x-icon" href="https://cdn.levine.org/uploads/images/gallery/2021-12/8wWj9LimebkMrZ2t-atom-energy.png">
+
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+
+        <script src="assets/js/15181efa86.js"></script>
+        <link rel="stylesheet" href="assets/css/bulma.min.css" />
         <script>
             const submitURL = () => {
                 let statusElement = document.getElementById('status')
@@ -52,6 +56,7 @@ export const LANDING_PAGE_HTML = `
             }
             
         </script>
+    <script defer data-domain="dl.is" data-api="/data/api/event" src="/data/js/script.js"></script>
     </head>
     <body>
         <section class="container">
@@ -131,7 +136,7 @@ export const LANDING_PAGE_HTML = `
         }
         .left,
         .right {
-        padding: 2.5rem;
+        padding: 2.0rem;
         }
         .left {
         border-right: 5px solid var(--background);
