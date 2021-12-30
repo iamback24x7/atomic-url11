@@ -118,13 +118,14 @@ export const LANDING_PAGE_HTML = `
     <style>
         :root {
         --brandColor: hsl(166, 67%, 51%);
-        --background: rgb(247, 247, 247);
+        --background: rgb(40, 42, 54);
         --textDark: hsla(0, 0%, 0%, 0.66);
         --textLight: hsla(0, 0%, 0%, 0.33);
         }
         body {
         background: var(--background);
         height: 100vh;
+        border: 1px solid transparent;
         color: var(--textDark);
         }
         .field:not(:last-child) {
@@ -132,7 +133,7 @@ export const LANDING_PAGE_HTML = `
         }
         .register {
         margin-top: 6rem;
-        background: white;
+        background: #f8f8f2;
         border-radius: 10px;
         }
         .left,
