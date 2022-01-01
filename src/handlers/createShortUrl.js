@@ -33,7 +33,7 @@ export const createShortUrl = async (request) => {
     const { originalUrl } = await request.json()
 
     const urlKey = await generateUniqueUrlKey()
-    await URL_DB.put(urlKey, originalUrl, {expirationTTL: 60*60*24})
+    await URL_DB.put(urlKey, originalUrl)
 
     return new Response(
         JSON.stringify({
