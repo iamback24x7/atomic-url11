@@ -13,4 +13,4 @@ Atomic-url was created by [Jerry Ng](https://github.com/ngshiheng) and the repo 
 
 ## Setup
 
-A full write-up for installing this build can be found [here](https://gist.github.com/1cefe77478d41bf470f07a84143899e5).
+I've written a step-by-step guide for installing this project, which can be found [here](https://gist.github.com/1cefe77478d41bf470f07a84143899e5).
