@@ -10,7 +10,7 @@
     "author": "Jerry Ng <ngshiheng@gmail.com>",
     "license": "MIT",
     "devDependencies": {
-        "prettier": "2.7.1"
+        "prettier": "2.8.8"
     },
     "dependencies": {
         "itty-router": "^2.4.8",
