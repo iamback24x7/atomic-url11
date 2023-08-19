@@ -22,6 +22,6 @@ jobs:
                   CI: true
 
             - name: Deploy
-              uses: cloudflare/wrangler-action@2.0.0
+              uses: cloudflare/wrangler-action@v3.1.0
               with:
                   apiToken: ${{ secrets.CF_API_TOKEN }}
