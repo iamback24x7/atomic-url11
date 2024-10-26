@@ -6,7 +6,7 @@ compatibility_date = "2024-10-26"
 kv_namespaces = [
   {binding = "URL_DB", id = "129d726263314df896522dd01475cfb0", preview_id = "df186e75b78e40a4add48815993b4677"},
 ]
-route = "hgm.edu.pl"
+route = ""
 workers_dev = true
 zone_id = "5799df69ae6a9beb14fd14cfdf00f313"
 
